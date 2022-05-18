@@ -50,6 +50,7 @@ public class trivia2 {
         while(true) {
             System.out.println("Do you love Halsey?");
             if(scanner.next().equals("Yes")) {
+                continue;
             } else {
                 break;
             }
